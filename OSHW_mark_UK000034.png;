@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OSHW Mark Generator</title>
+<link crossorigin='anonymous' href='https://unpkg.com/purecss@1.0.0/build/pure-min.css' rel='stylesheet'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+</head>
+<body>
+<div class='pure-g' id='main'>
+<div class='pure-u-1-5'></div>
+<div class='pure-u-3-5'>
+<div class='header'>
+<h1>
+<img src='ext/oshwa-logo-50.png'>
+OSHW Mark Generator
+</h1>
+</div>
+<div class='content'>
+<p></p>
+<form action='/mark' class='pure-form pure-form-aligned' method='post'>
+<fieldset>
+<div class='pure-control-group'>
+<label for='country'>Country Code</label>
+<input name='country' type='text'>
+<span class='pure-form-message-inline'>This is your 2 letter country code, like 'US'.</span>
+</div>
+<div class='pure-control-group'>
+<label for='number'>Number</label>
+<input name='number' type='text'>
+<span class='pure-form-message-inline'>This is the number from your certification.</span>
+</div>
+<div class='pure-controls'>
+<button class='pure-button pure-button-primary' name='PDF' type='submit'>Generate PDF</button>
+<button class='pure-button pure-button-primary' name='PNG' type='submit'>Generate PNG</button>
+</div>
+</fieldset>
+</form>
+<p></p>
+<p>
+This web service was created by
+<a href='http://capablerobot.com'>Capable Robot Components</a>
+to simplify the generation of OSHW marks, after certification is complete.
+</p>
+<p>
+Information about open souce hardware certification is available on the
+<a href='https://certification.oshwa.org'>OSHWA Website.</a>
+OSHWA Certification Logo used with permission.
+</p>
+<p>
+If you have suggestions on how to make this tool more useful (or want to talk about robots and OSHW), email us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ff8d909d908bbf9c9e8f9e9d939a8d909d908bd19c9092">[email&#160;protected]</a>
+</p>
+<p></p>
+<p>
+The source code for this service is MIT licensed and is
+<a href='https://github.com/CapableRobot/oshwmark'>available on Github.</a>
+</p>
+<p>
+Follow
+<a href='https://twitter.com/capablerobot'>Capable Robot on Twitter</a>
+for product announcements and updates.
+</p>
+<p></p>
+<p>
+Thanks!
+</p>
+</div>
+</div>
+<div class='pure-u-1-5'></div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
